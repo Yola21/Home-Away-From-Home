@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PG and Hostel Finder</string>
+    <string name="logo_name">Home Away From Home</string>
+    <string name="slogan_name">Home Away From Home!</string>
+
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Provide You The Best</string>
+    <string name="third_slide_title">Give On Rent</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <string name="first_slide_desc">You can search any hostels or PGs nearby or with-in the specified area.</string>
+    <string name="second_slide_desc">We will provide you the best choice that match your wishlist.</string>
+    <string name="third_slide_desc">Do you own any Hostel? Or Want to give your Home or Flat on rent? Dont worry, we will look for it.</string>
+    <string name="fourth_slide_desc">Welcome On Board!!!</string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <!--Categories-->
+    <string name="hostels">Hostels</string>
+    <string name="pgs">PGs</string>
+    <string name="flats">Flats</string>
+
+    <!--Gender-->
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+
+    <!--Titles and Description-->
+    <string name="featured_location">All Featured Locations</string>
+    <string name="featured_location_description">All the locations that have top demand in town!</string>
+    <string name="most_viewed_location">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+</resources>

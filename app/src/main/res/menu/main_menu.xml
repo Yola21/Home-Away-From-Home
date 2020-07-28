@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="HOME"
+            android:icon="@drawable/ic_dashboard_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_search"
+            android:title="SEARCH"
+            android:icon="@drawable/ic_search_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="ALL CATEGORIES"
+            android:icon="@drawable/ic_style_black_24dp"/>
+
+        <item
+            android:id="@+id/nav_add_place"
+            android:title="ADD PLACE"
+            android:icon="@drawable/ic_location_on_black_24dp"/>
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="LOGIN"
+                    android:icon="@drawable/ic_lock_open_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="PROFILE"
+                    android:icon="@drawable/ic_person_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="LOGOUT"
+                    android:icon="@drawable/ic_lock_outline_black_24dp"/>
+
+                </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Hostel For...">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_boy"
+                    android:title="BOYS"
+                    android:icon="@drawable/ic_sentiment_satisfied_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_girl"
+                    android:title="GIRLS"
+                    android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"/>
+
+                </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="SHARE"
+                    android:icon="@drawable/ic_share_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="RATE US"
+                    android:icon="@drawable/ic_stars_black_24dp"/>
+
+                </group>
+
+        </menu>
+    </item>
+
+</menu>
